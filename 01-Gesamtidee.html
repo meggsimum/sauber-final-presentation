@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>SAUBER: GDI Gesamtkonzept</title>
+    <meta name="author" content="Christian Mayer">
+    <meta name="author" content="meggsimum - B&uml;ro f&uml;r Geoinformatik">
+    <meta name="description" content="TODO" />
+
+    <!--[if lt IE 9]>
+    <script src="./shared/reveal.js-3.6.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="./shared/reveal.js-3.9.2/css/reveal.css">
+    <link rel="stylesheet" href="./shared/reveal.js-3.9.2/css/theme/beige.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lato|Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="./shared/css/customized.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="./shared/reveal.js-3.9.2/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ?
+          './shared/reveal.js-3.9.2/css/print/pdf.css' :
+          './shared/reveal.js-3.9.2/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+
+    <div class="reveal">
+
+      <!-- BEGIN OF SLIDES -->
+      <div class="slides">
+
+        <section id="title">
+          <h2>SAUBER: Gesamtkonzept GDI</h2>
+          <br />
+          <p>
+            <small>Christian Mayer, meggsimum - Büro für Geoinformatik</small>
+          </p>
+          <hr />
+          <p>
+            <small>SAUBER Abschlusspräsentation, 09.12.2021</small>
+          </p>
+        </section>
+
+        <section>
+          <h2>Gesamtsystem</h2>
+          <img src="shared/img/1_sauber-architektur-gesamtsystem.svg" height="500px" style="background:none; border:none; box-shadow:none;">
+        </section>
+
+        <section>
+          <h2>SAUBER </h2>
+          <strong>ein schnittstellenbasiertes System</strong>
+
+          <ul>
+            <li>Service-orientierte Architektur</li>
+            <li>Geodateninfrastruktur als Basis aller SAUBER Dienste</li>
+            <li>Automatisierte Veröffentlichung von neuen Daten</li>
+            <li>offene Standards</li>
+            <li>Demonstratoren für die Anbindung an standardisierte Geo-Services</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>SAUBER Plattform</h2>
+          <img src="shared/img/2_sauber-architektur-plattform.svg" height="500px" style="background:none; border:none; box-shadow:none;">
+        </section>
+
+        <section>
+          <h2>GDI - Geodateninfrastruktur</h2>
+          <ul>
+            <li>voll automatisiert</li>
+            <li>flexibel durch Microservices</li>
+            <li>erweiterbar auf mehr Regionen und Schadstoffe</li>
+            <li>skalierbar auf größere Last</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Datenaustausch</h2>
+          <img src="shared/img/3_sauber-architektur-datenaustausch-hhi.svg" style="background:none; border:none; box-shadow:none;">
+        </section>
+
+        <section>
+          <h2>Schnittstellen</h2>
+          <ul>
+            <li>OGC-Standards: WMS, WFS, WCS</li>
+            <li>räumliche Filter</li>
+            <li>zeitliche Filter</li>
+            <li>nutzbar von vielen Clients (Browser, Desktop ...)</li>
+          </ul>
+        </section>
+
+        <section id="imprint">
+          <h2>Autoren</h2>
+          <div style="width: 45%; float: left;">
+            <address style="text-align: left">
+              <strong>Christian Mayer</strong><br />
+              <strong>Jakob Miksch</strong><br />
+              <span style="font-size: smaller;">
+              meggsimum - Büro für Geoinformatik<br />
+              Schillerstraße 2a<br />
+              67112 Mutterstadt<br />
+              chris@meggsimum.de
+              jakob@meggsimum.de
+              </span>
+            </address>
+          </div>
+          <div style="width: 45%; float: right;">
+            <address style="text-align: right">
+              <strong>Dr. Stefan Jäger</strong><br />
+              <strong>Julian Käflein</strong><br />
+              <span style="font-size: smaller;">
+              geomer GmbH &amp; Co. KG<br />
+              Im Breitspiel 11B<br />
+              69126 Heidelberg<br />
+              sj@geomer.de<br />
+              Julian.Kaeflein@geomer.de
+              </span>
+            </address>
+          </div>
+          <h4 style="clear:both;">Lizenz</h4>
+          <p id="license">
+            Diese Folien sind unter <a
+            href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA</a>
+            veröffentlicht.
+          </p>
+        </section>
+
+      </div>
+      <!-- END OF SLIDES -->
+
+
+    </div>
+
+    <script src="./shared/reveal.js-3.9.2/lib/js/head.min.js"></script>
+    <script src="./shared/reveal.js-3.9.2/js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        dependencies: [
+          { src: './shared/reveal.js-3.9.2/plugin/markdown/marked.js' },
+          { src: './shared/reveal.js-3.9.2/plugin/markdown/markdown.js' },
+          { src: './shared/reveal.js-3.9.2/plugin/notes/notes.js', async: true },
+          {
+            src: './shared/reveal.js-3.9.2/plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
+</html>

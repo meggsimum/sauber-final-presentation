@@ -1,0 +1,429 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>SAUBER: Technologie und Standards</title>
+    <meta name="author" content="Christian Mayer">
+    <meta name="author" content="meggsimum - B&uml;ro f&uml;r Geoinformatik">
+    <meta name="description" content="TODO" />
+
+    <!--[if lt IE 9]>
+    <script src="./shared/reveal.js-3.6.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="./shared/reveal.js-3.9.2/css/reveal.css">
+    <link rel="stylesheet" href="./shared/reveal.js-3.9.2/css/theme/beige.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lato|Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="./shared/css/customized.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="./shared/reveal.js-3.9.2/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ?
+          './shared/reveal.js-3.9.2/css/print/pdf.css' :
+          './shared/reveal.js-3.9.2/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+
+    <div class="reveal">
+
+      <!-- BEGIN OF SLIDES -->
+      <div class="slides">
+
+        <section id="title">
+          <h2>Technologien und Standards</h2>
+          <br />
+          <p>
+            <small>Christian Mayer, meggsimum - Büro für Geoinformatik</small>
+          </p>
+          <hr />
+          <p>
+            <small>SAUBER Abschlusspräsentation, 09.12.2021</small>
+          </p>
+        </section>
+
+        <section>
+          <h2>Datenbank</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="shared/img/postgres-logo.svg" height="200px">
+                </td>
+                <td>
+                  <img src="shared/img/postgis-logo.png" height="200px">
+                </td>
+                <td>
+                  <img src="shared/img/timescale-db-logo.png" height="200px">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  PostgreSQL
+                </td>
+                <td>
+                  PostGIS
+                </td>
+                <td>
+                  TimescaleDB
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </section>
+
+        <section>
+          <h2>Middleware</h2>
+          <table>
+            <tbody>
+              <tr >
+                <td>
+                  <img src="shared/img/geoserver-logo.svg" height="150px">
+                </td>
+                <td>
+                  <img src="shared/img/nodejs-logo.svg" height="150px">
+                </td>
+                <td>
+                  <img src="shared/img/java-logo.svg" height="150px">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  GeoServer
+                </td>
+                <td>
+                  Node.js
+                </td>
+                <td>
+                  Java
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </section>
+
+        <section>
+          <h2>Frontend</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="shared/img/openlayers-logo.svg" height="200px">
+                </td>
+                <td>
+                  <img src="shared/img/vue-js-logo.svg" height="200px">
+                </td>
+                <td>
+                  <img src="shared/img/vuetify-logo.svg" height="200px">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  OpenLayers
+                </td>
+                <td>
+                  Vue.js
+                </td>
+                <td>
+                  Vuetify
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </section>
+
+        <section>
+          <h2>Containerization</h2>
+          <img src="shared/img/docker-logo-horizontal.png" alt="">
+        </section>
+
+        <section>
+
+          <h2>CI - Continuous Integration</h2>
+
+          <img src="shared/img/ci-workflow.svg" >
+
+        </section>
+
+        <section>
+          <h2>OpenSource</h2>
+
+          Offen zugängliches Repositories der GDI:
+          <ul>
+            <li><a href="https://github.com/meggsimum/sauber-sdi-docker" target="_blank"><b>sauber-sdi-docker</b></a>
+            </li>
+            <li><a href="https://github.com/meggsimum/sauber-platform-snippets" target="_blank"><b>sauber-platform-snippets</b></a></li>
+            <li><a href="https://github.com/meggsimum/geoserver-node-client" target="_blank"><b>geoserver-node-client</b></a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2><a href="https://github.com/meggsimum/sauber-sdi-docker" target="_blank">sauber-sdi-docker</a></h2>
+
+          Aktivität
+          <img src="shared/img/git-contribution.png" >
+
+        </section>
+
+        <section>
+          <h2>Code Statistik</h2>
+
+          <table style="width: 800px" class="table">
+            <colgroup>
+            <col style="width: 400px">
+            <col style="width: 300px">
+            </colgroup>
+            <tbody>
+              <tr>
+                <td>Repositories</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Beitragende</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Gelöste Issues<br></td>
+                <td>49</td>
+              </tr>
+              <tr>
+                <td>Pull Requests<br></td>
+                <td>221</td>
+              </tr>
+              <tr>
+                <td>Commits</td>
+                <td>797<br></td>
+              </tr>
+              <tr>
+                <td>Zeilen Code</td>
+                <td>&gt; 115 000<br></td>
+              </tr>
+            </tbody>
+            </table>
+
+
+        </section>
+
+        <section>
+          <h2>Schnittstellen</h2>
+          <ul>
+            <li>Maschinen-lesbar</li>
+            <li>offen zugänglich</li>
+            <li>per URL</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Verwendete Standards</h2>
+          <ul>
+            <li>WFS - Web Feature Service</li>
+            <li>WMS - Web Map Service</li>
+            <li>WCS - Web Coverage Service</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>WMS - Web Map Service</h2>
+          <ul>
+            <li>Visuelle Darstellung</li>
+            <li>Rasterdaten</li>
+            <li>auch für Vektordaten</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>WFS - Web Feature Service</h2>
+          <ul>
+            <li>Vektordaten</li>
+            <li>für Geometrien</li>
+            <li>Punkte, Linine, Polygone, ...</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>WCS - Web Coverage Service</h2>
+          <ul>
+            <li>rohe Rasterdaten</li>
+            <li>ohne visuelle Darstellung</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>GeoServer</h2>
+          <p>
+            <b>415</b> verfügbare Layer
+          </p>
+          <img src="shared/img/geoserver-screenshot.png" >
+          <a
+            href="https://sauber-sdi.meggsimum.de/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?3&filter=false"
+            target="_blank"
+          >
+            sauber-sdi.meggsimum.de/geoserver
+          </a>
+        </section>
+
+        <section>
+          <h2>Stations Data</h2>
+          <img src="shared/img/stations_map.png" height="400px">
+        </section>
+
+        <section>
+          <h2>Stations Daten</h2>
+          <ul>
+            <li>als WFS</li>
+            <li>in vielen Formaten (JSON, CSV, Shapefile, ...)</li>
+          </ul>
+          <pre><code data-trim data-noescape>
+            {
+              "type": "FeatureCollection",
+              "features": [
+                  {
+                      "type": "Feature",
+                      "id": "aabu_measurement_no2_am1h.fid-637c4f59_17d144adfe7_-1afb",
+                      "geometry": {
+                          "type": "Point",
+                          "coordinates": [
+                              4045493,
+                              3078810
+                          ]
+                      },
+                      "geometry_name": "geom",
+                      "properties": {
+                          "idpk": 1,
+                          "component_id": 2,
+                          "component_name": "NO2_AM1H",
+                          "station_id": 24,
+                          "station_name": "Aachen Burtscheid",
+                          "max_datetime": "2021-11-16T14:00:00Z",
+                          "min_datetime": "2020-04-06T00:00:00Z",
+                          "series": "[
+                              {\"datetime\" : \"2021-11-16T14:00:00\", \"val\" : 11},
+                              {\"datetime\" : \"2021-11-16T13:00:00\", \"val\" : 10}
+                            ]"
+                        }
+                    }
+                 ]
+              }
+              </code></pre>
+        </section>
+
+        <section>
+          <h2>Prognosen</h2>
+          <ul>
+            <li>als WMS oder WCS</li>
+            <li>für NRW und Stuttgart</li>
+          </ul>
+          <img src="shared/img/forecast_screenshot.png">
+        </section>
+
+        <section>
+          <h2>Simulation</h2>
+          <ul>
+            <li>als WMS oder WCS</li>
+            <li>für verschiedenen Untersuchungsgebiete</li>
+          </ul>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="shared/img/simulation_current_glasmacherviertel_no2.png" height="300px">
+                </td>
+                <td>
+                  <img src="shared/img/simulation_change_glasmacherviertel_no2.png" height="300px">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  current
+                </td>
+                <td>
+                  change
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+
+        <section id="imprint">
+          <h2>Autoren</h2>
+          <!-- <h4>Autoren</h4> -->
+          <div style="width: 45%; float: left;">
+            <address style="text-align: left">
+              <strong>Christian Mayer</strong><br />
+              <strong>Jakob Miksch</strong><br />
+              <span style="font-size: smaller;">
+              meggsimum - Büro für Geoinformatik<br />
+              Schillerstraße 2a<br />
+              67112 Mutterstadt<br />
+              chris@meggsimum.de
+              jakob@meggsimum.de
+              </span>
+            </address>
+          </div>
+          <div style="width: 45%; float: right;">
+            <address style="text-align: right">
+              <strong>Dr. Stefan Jäger</strong><br />
+              <strong>Julian Käflein</strong><br />
+              <span style="font-size: smaller;">
+              geomer GmbH &amp; Co. KG<br />
+              Im Breitspiel 11B<br />
+              69126 Heidelberg<br />
+              sj@geomer.de<br />
+              Julian.Kaeflein@geomer.de
+              </span>
+            </address>
+          </div>
+          <h4 style="clear:both;">Lizenz</h4>
+          <p id="license">
+            Diese Folien sind unter <a
+            href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA</a>
+            veröffentlicht.
+          </p>
+        </section>
+
+      </div>
+      <!-- END OF SLIDES -->
+
+
+    </div>
+
+    <script src="./shared/reveal.js-3.9.2/lib/js/head.min.js"></script>
+    <script src="./shared/reveal.js-3.9.2/js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        dependencies: [
+          { src: './shared/reveal.js-3.9.2/plugin/markdown/marked.js' },
+          { src: './shared/reveal.js-3.9.2/plugin/markdown/markdown.js' },
+          { src: './shared/reveal.js-3.9.2/plugin/notes/notes.js', async: true },
+          {
+            src: './shared/reveal.js-3.9.2/plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
+</html>
