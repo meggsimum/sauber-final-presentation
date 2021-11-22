@@ -1,0 +1,10 @@
+body {
+  background: #faf2e6;
+  background: -moz-radial-gradient(center, circle cover, white 0%, #faf2e6 75%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, white), color-stop(75%, #faf2e6));
+  background: -webkit-radial-gradient(center, circle cover, white 0%, #faf2e6 75%);
+  background: -o-radial-gradient(center, circle cover, white 0%, #faf2e6 75%);
+  background: -ms-radial-gradient(center, circle cover, white 0%, #faf2e6 75%);
+  background: radial-gradient(center, circle cover, white 0%, #faf2e6 75%);
+  background-color: #f7f3de; 
+}
