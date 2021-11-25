@@ -1,3 +1,10 @@
+/* place project specific CSS customization here */
+
 body {
   background: #faf2e6;
+}
+
+.reveal img.title-logo {
+  border: 0;
+  box-shadow: unset;
 }
