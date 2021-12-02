@@ -277,48 +277,29 @@
         </section>
 
         <section>
-          <h2>Stations Data</h2>
-          <img src="shared/img/stations_map.png" height="400px">
-        </section>
-
-        <section>
           <h2>Stations Daten</h2>
-          <ul>
-            <li>als WFS</li>
-            <li>in vielen Formaten (JSON, CSV, Shapefile, ...)</li>
-          </ul>
-          <pre><code data-trim data-noescape>
-            {
-              "type": "FeatureCollection",
-              "features": [
-                  {
-                      "type": "Feature",
-                      "id": "aabu_measurement_no2_am1h.fid-637c4f59_17d144adfe7_-1afb",
-                      "geometry": {
-                          "type": "Point",
-                          "coordinates": [
-                              4045493,
-                              3078810
-                          ]
-                      },
-                      "geometry_name": "geom",
-                      "properties": {
-                          "idpk": 1,
-                          "component_id": 2,
-                          "component_name": "NO2_AM1H",
-                          "station_id": 24,
-                          "station_name": "Aachen Burtscheid",
-                          "max_datetime": "2021-11-16T14:00:00Z",
-                          "min_datetime": "2020-04-06T00:00:00Z",
-                          "series": "[
-                              {\"datetime\" : \"2021-11-16T14:00:00\", \"val\" : 11},
-                              {\"datetime\" : \"2021-11-16T13:00:00\", \"val\" : 10}
-                            ]"
-                        }
-                    }
-                 ]
-              }
-              </code></pre>
+          <p>als WFS - in vielen Formaten</p>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="shared/img/stations_map.png" height="300px">
+                </td>
+                <td>
+                  <img src="shared/img/station-data-json-screenshot.png" height="300px">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Kartendarstellung
+                </td>
+                <td>
+                  Rohdaten
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
         </section>
 
         <section>
